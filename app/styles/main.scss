@@ -195,6 +195,9 @@ body {
     background: url('../images/startups.png') no-repeat center bottom;
     background-size: cover;
     padding: 56px 0 56px 0;
+    .container-fluid {
+        width: 80%
+    }
     .logo-grey {
         width: 100px;
     }
@@ -274,7 +277,7 @@ footer {
     }
 }
 
-@media (max-width: 968px){
+@media (max-width: 968px) {
     .group-wrapper {
         transform: translateY(0)!important;
         padding-bottom: 20px;

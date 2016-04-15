@@ -104,7 +104,7 @@
     <!-- End of  Meetup members div -->
     <!-- Start of  Know Startup div -->
     <div class="section know-startup wow">
-        <div class="container text-center white-text">
+        <div class="container-fluid text-center white-text">
             <div class="row">
                 <div class="logo-grey center-block wow fadeInDown">
                     <img class="img-responsive" src="images/logo-grey.svg" />
@@ -168,8 +168,8 @@
             useGrouping: true,
             separator: ','
         };
-        
-        
+
+
         $('.counter-one').waypoint(function() {
             $('.counter-one').removeClass('hidden');
             var count = new CountUp('counter', 0, 1300000, 0, 4, options);
