@@ -1,0 +1,24 @@
+{
+  "name": "sg",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "modernizr": "~2.8.1",
+    "animate.css": "^3.5.1",
+    "typed.js": "^1.1.1",
+    "wow": "wow.js#^1.1.2",
+    "waypoints": "^4.0.0",
+    "countUp.js": "countup#^1.7.0"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
