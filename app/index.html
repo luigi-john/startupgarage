@@ -50,7 +50,9 @@
                         We give non-technical founders <span class="red-bold">prototype</span>, <span class="red-bold">tech team</span>, and <span class="red-bold">traction</span>, so they can be investment- or accelerator-ready. <span class="show-more">[+]</span>
 
                     </p>
-                    <div class="message text-left">
+                    
+                </div>
+                <div class="message text-left center-block">
                         <p>
                             Technical and non-technical founders need different things to be investment- or accelerator-ready. Being investment-ready means when people put money in your startup, you are ready to hit the ground and run.
                         </p>
@@ -62,14 +64,13 @@
                         </p>
 
                     </div>
-                </div>
             </div>
             <div class="row wow fadeIn" data-wow-delay="800ms">
                 <div class="text-center">
-                    <a class="button button-red">I'm Interested</a>
+                    <a class="button button-red" id="btnInterested">I'm Interested</a>
                 </div>
                 <div class="email-form">
-                    <form class="form-horizontal">
+                    <form class="form-horizontal" action="mailto:hello@weknowstartup.com"  method="post" enctype="text/plain">
                         <div class="email-form-wrapper">
                             <div class="form-group">
                                 <label for="name" class="control-label col-sm-3"><span>Name</span>
@@ -224,7 +225,7 @@
             <div class="row wow fadeInUp" data-wow-delay="1400ms">
                 <h3 class="text-uppercase"><span class=" lets-talk">Let's Talk</span></h3>
                 <address class="email-wrapper">
-                    <a class="email-text" href="mailto:#">hello@weknowstartup.com</a>
+                    <a class="email-text" href="mailto:hello@weknowstartup.com">hello@weknowstartup.com</a>
                 </address>
             </div>
         </div>
@@ -298,7 +299,7 @@
         $(".show-more").click(function() {
             $(".message").slideToggle();
         });
-        $('.button-red').click(function() {
+        $('#btnInterested').click(function() {
             $(".email-form").slideToggle();
         });
 
