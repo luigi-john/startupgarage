@@ -40,7 +40,7 @@ body {
 .hero {
     .main-contents {
         margin-top: 56px;
-        margin-bottom: 56px;
+        margin-bottom: 40px;
     }
     .logo-wrapper {
         transform: translateY(-10%);
@@ -58,7 +58,7 @@ body {
     }
     .main-para-wrapper {
         width: 65%;
-        margin-bottom: 56px;
+        margin-bottom: 36px;
         .main-paragraph {
             color: #616161;
             font-size: 2.01rem;
@@ -69,7 +69,7 @@ body {
         }
     }
     .button.button-red {
-        margin-top: 30px;
+        margin-bottom: 20px;
     }
     .arrow {
         margin-top: 48px;
@@ -118,6 +118,7 @@ body {
     font-size: 1.9rem;
     padding: 15px 25px;
     color: $sg-red;
+    background-color: #fff;
     &:hover, &:focus {
         text-decoration: none;
         color: #fff;
@@ -506,6 +507,9 @@ footer {
     }
 }
 @media screen and (max-width: 425px) {
+    .message {
+        width: 100%;
+    }
     .group-wrapper {
         padding-bottom: 0px!important;
     }
