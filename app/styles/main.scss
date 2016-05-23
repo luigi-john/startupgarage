@@ -454,6 +454,13 @@ footer {
     margin-right: 8px;
 }
 /* Responsive: Portrait tablets and up */
+@media screen and (min-width: 1200px) {
+    .hero {
+        .logo-wrapper{
+            margin-left: 64px;
+        }
+    }
+}
 @media screen and (max-width: 1130px) {
     .fast-prototyping {
         .img-wrapper {
